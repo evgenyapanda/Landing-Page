@@ -10,8 +10,17 @@ $(document).ready(function() {
 		heightDetect();
 	});
 	
-	$(".sandwich, .menu_item").click(function() {
- 	$(".sandwich").toggleClass("active");
+	$(".toggle_menu, .menu_item").click(function() {
+ 		$(".sandwich").toggleClass("active");
+	});
+
+
+	$(".toggle_menu").click(function(){
+		if($(".top_mnu").is(":visible")){
+		   $(".top_mnu").fadeOut(600);
+		} else {
+		   $(".top_mnu").fadeIn(600);
+		};
 	});
 
 });
