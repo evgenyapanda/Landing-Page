@@ -17,23 +17,22 @@ $(document).ready(function() {
 	$(".top_mnu ul a").click(function(){
 		$(".top_mnu").fadeOut(600);
 		$(".sandwich").toggleClass("active");
-	});
+	}).append("<span>");
 
 
 	$(".toggle_menu").click(function(){
 		if($(".top_mnu").is(":visible")){
+		   $(".top_text").removeClass("h_opacity");
 		   $(".top_mnu").fadeOut(600);
 		   $(".top_mnu li a").removeClass("fadeInUp animated");
 		} else {
+		   $(".top_text").addClass("h_opacity");
 		   $(".top_mnu").fadeIn(600);
 		   $(".top_mnu li a").addClass("fadeInUp animated");
 		};
 	});
 
-	$(".top_mnu li").sliphover({
-		target : "a",
-		backgroundColor : 'rgba(255,255,255,.05)'
-	});
+
 
 });
 

@@ -18,15 +18,18 @@ p {
   border-color: #FF6347; }
 
 path {
-  fill: #222; }
+  fill: #fff; }
 
 .toggle_menu {
-  background-color: #222; }
+  background-color: rgba(100, 100, 100, 0); }
 
 .top_mnu a:hover {
-  color: #FF6347;
-  background-color: rgba(255, 255, 255, 0.05); }
+  color: #FF6347; }
 .top_mnu a {
   letter-spacing: 3px; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
 
 /*# sourceMappingURL=tomato.css.map */

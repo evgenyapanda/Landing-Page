@@ -24,7 +24,7 @@ section,
 
 .main_head {
   min-height: 620px;
-  pagging-top: 20px; }
+  padding-top: 20px; }
 
 .loader {
   background: none repeat scroll 0 0 #ffffff;
@@ -147,10 +147,58 @@ svg {
     .top_mnu ul a {
       color: #fff;
       display: block;
-      padding: 20px 0;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 12px;
+      opacity: 0;
+      position: relative;
+      height: 60px; }
+      .top_mnu ul a span {
+        display: block;
+        position: relative;
+        top: -40px;
+        left: 0;
+        height: 100%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+        .top_mnu ul a span:hover {
+          background-color: rgba(255, 255, 255, 0.05); }
 
-.sliphover-overlay {
-  background-color: rgba(255, 255, 255, 0.05); }
+.top_wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 10; }
+  .top_wrapper .top_descr {
+    display: table-row; }
+    .top_wrapper .top_descr .top_centered {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+  .top_wrapper .top_text {
+    display: inline-block; }
+    .top_wrapper .top_text p {
+      margin: 0;
+      text-transform: uppercase; }
+    .top_wrapper .top_text h1 {
+      display: inline-block;
+      padding: 10px 35px;
+      color: #fff;
+      border: 8px solid #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2.8em;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin-left: 20px;
+      margin-right: 20px; }
+
+.h_opacity {
+  opacity: 0.3;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
 
 /*# sourceMappingURL=main.css.map */

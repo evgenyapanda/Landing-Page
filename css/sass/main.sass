@@ -25,7 +25,7 @@ section,
 
 .main_head
 	min-height: 620px
-	pagging-top: 20px
+	padding-top: 20px
 
 .loader 
 	background: none repeat scroll 0 0 #ffffff
@@ -152,8 +152,52 @@ $h: 3px
 		a
 			color: #fff
 			display: block
-			padding: 20px 0
 			text-transform: uppercase
+			font-size: 12px
+			opacity: 0
+			position: relative
+			height: 60px
+			span
+				display: block
+				position: relative
+				top: -40px
+				left: 0
+				height: 100%
+				+transition (all 0.5s ease)
+				&:hover
+					background-color: rgba(255,255,255,.05)
 
-.sliphover-overlay
-	background-color: rgba(255,255,255,.05)
+.top_wrapper
+	display: table
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 50%
+	left: 0
+	z-index: 10
+	.top_descr
+		display: table-row
+		.top_centered
+			display: table-cell
+			text-align: center
+			vertical-align: middle
+	.top_text
+		display: inline-block
+		p
+			margin: 0
+			text-transform: uppercase
+		h1
+			display: inline-block
+			padding: 10px 35px
+			color: #fff
+			border: 8px solid #fff
+			text-transform: uppercase
+			font-weight: bold
+			font-size: 2.8em
+			background-color: rgba(0,0,0,.1)
+			margin-left: 20px
+			margin-right: 20px
+
+.h_opacity
+	opacity: .3	
+	+transition(all 0.2s ease)	
