@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
+	$(".top_text p").animated("fadeInUp", "fadeOutDown");
+	$(".section_header").animated("fadeInUp", "fadeOutDown");
+	
 	function heightDetect(){
 		$(".main_head").css("height", $(window).height());
 	}
