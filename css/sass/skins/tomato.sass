@@ -17,7 +17,8 @@ a
 	color: $color
 
 p,
-body .main_footer
+body .main_footer,
+.s_about li
 	color: $text_color
 
 
@@ -56,12 +57,22 @@ path
 		color: $bg_light
 		+kerning(5)
 
+.personal_header
+	+kerning(3)
+
 .s_descr
 	+kerning(3)
 	&::after
 		background-color: $main_color
 
+section
+	h3
+		+kerning(2)
+		color: $text_color
 
+.s_about
+	p:nth-child(even)
+		color: $color
 
 
 

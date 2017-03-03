@@ -21,14 +21,26 @@ body textarea:required:valid {
 section,
 .main-head {
   posiyion: relative; }
+  section h3,
+  .main-head h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 25px; }
 
 section {
-  padding: 70px 0 80px; }
+  padding: 30px 0 80px; }
   section h2 {
     text-align: center;
     font-size: 24px;
     text-transform: uppercase;
     margin: 0 0 15px; }
+  section .personal_header {
+    font-size: 13px;
+    color: #555;
+    text-align: left; }
 
 .s_descr_wrap {
   text-align: center; }
@@ -169,6 +181,22 @@ svg {
   .top_mnu ul {
     margin-top: 180px;
     text-align: center; }
+    .top_mnu ul li:nth-child(1) a {
+      -webkit-animation-delay: 0;
+      -moz-animation-delay: 0;
+      animation-delay: 0; }
+    .top_mnu ul li:nth-child(2) a {
+      -webkit-animation-delay: 0.2s;
+      -moz-animation-delay: 0.2s;
+      animation-delay: 0.2s; }
+    .top_mnu ul li:nth-child(3) a {
+      -webkit-animation-delay: 0.6s;
+      -moz-animation-delay: 0.6s;
+      animation-delay: 0.6s; }
+    .top_mnu ul li:nth-child(4) a {
+      -webkit-animation-delay: 0.9s;
+      -moz-animation-delay: 0.9s;
+      animation-delay: 0.9s; }
     .top_mnu ul a {
       color: #fff;
       display: block;
@@ -207,7 +235,10 @@ svg {
     display: inline-block; }
     .top_wrapper .top_text p {
       margin: 0;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      -webkit-animation-delay: 0.8s;
+      -moz-animation-delay: 0.8s;
+      animation-delay: 0.8s; }
     .top_wrapper .top_text h1 {
       display: inline-block;
       padding: 10px 35px;
@@ -216,7 +247,10 @@ svg {
       text-transform: uppercase;
       font-weight: bold;
       font-size: 2.8em;
-      background-color: rgba(0, 0, 0, 0.1); }
+      background-color: rgba(0, 0, 0, 0.1);
+      -webkit-animation-delay: 0.5s;
+      -moz-animation-delay: 0.5s;
+      animation-delay: 0.5s; }
 
 .h_opacity {
   opacity: 0.3;
@@ -228,5 +262,33 @@ svg {
   padding: 50px 0;
   font-size: 13px;
   font-weight: 300; }
+
+.person {
+  text-align: center; }
+  .person a {
+    text-decoration: none; }
+  .person img {
+    max-width: 220px;
+    display: inline-block;
+    border-radius: 50%; }
+
+.s_about p {
+  margin-bottom: 25px; }
+.s_about ul,
+.s_about li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+.s_about li {
+  margin-bottom: 10px; }
+.s_about .social_wrap {
+  margin-top: 20px; }
+
+.social_wrap li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 4px; }
+  .social_wrap li:nth-child(1) {
+    padding-left: 0; }
 
 /*# sourceMappingURL=main.css.map */
