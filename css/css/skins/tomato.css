@@ -60,4 +60,20 @@ section h3 {
 .s_about p:nth-child(even) {
   color: #FF6347; }
 
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 600; }
+
+.resume_icon {
+  font-size: 40px; }
+
+.resume_item {
+  margin-bottom: 30px; }
+  .resume_item .years {
+    background-color: #FF6347; }
+  .resume_item h3 {
+    letter-spacing: 1px; }
+
 /*# sourceMappingURL=tomato.css.map */

@@ -19,10 +19,10 @@ body textarea:required:valid {
   display: none; }
 
 section,
-.main-head {
-  posiyion: relative; }
+.main_head {
+  position: relative; }
   section h3,
-  .main-head h3 {
+  .main_head h3 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
@@ -31,7 +31,7 @@ section,
     margin-bottom: 25px; }
 
 section {
-  padding: 30px 0 80px; }
+  padding: 30px 0 40px; }
   section h2 {
     text-align: center;
     font-size: 24px;
@@ -49,7 +49,7 @@ section {
     text-transform: uppercase;
     font-size: 12px;
     position: relative;
-    margin-bottom: 120px; }
+    margin-bottom: 80px; }
     .s_descr_wrap .s_descr::after {
       content: "";
       height: 1px;
@@ -222,7 +222,7 @@ svg {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 10%;
+  top: 6%;
   left: 0;
   z-index: 10; }
   .top_wrapper .top_descr {
@@ -264,7 +264,8 @@ svg {
   font-weight: 300; }
 
 .person {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 35px; }
   .person a {
     text-decoration: none; }
   .person img {
@@ -290,5 +291,39 @@ svg {
   padding: 0 4px; }
   .social_wrap li:nth-child(1) {
     padding-left: 0; }
+
+.resume_container .left {
+  text-align: right;
+  border-right: #d2d2d2 1px solid; }
+  .resume_container .left h3 {
+    text-align: right; }
+.resume_container .right {
+  text-align: left; }
+  .resume_container .right h3 {
+    text-align: left; }
+.resume_container h3 {
+  margin-top: 30px; }
+.resume_container .resume_item {
+  margin-bottom: 35px; }
+  .resume_container .resume_item:last-child {
+    margin-bottom: 0; }
+.resume_container .years {
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 600;
+  font-style: italic; }
+.resume_container strong {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase; }
+.resume_container p {
+  margin-top: 10px; }
+  .resume_container p:last-child {
+    margin-bottom: 0; }
+.resume_container .resume_description {
+  font-style: italic; }
 
 /*# sourceMappingURL=main.css.map */
