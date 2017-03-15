@@ -29,6 +29,14 @@
 	.top_wrapper .top_text h1{
 		font-size: 2.0em;
 	}
+	.main_footer .social_wrap{
+		float: left;
+		margin-top: 20px;
+
+	}
+	.main_footer .social_wrap ul{
+		padding-left: 15px;
+	}
 }
 
 /* Custom, iPhone Retina */

@@ -34,7 +34,7 @@ path {
     color: #fff; }
 
 .toggle_menu {
-  background-color: rgba(100, 100, 100, 0); }
+  background-color: black; }
 
 .top_mnu a:hover {
   color: #FF6347; }
@@ -85,5 +85,27 @@ section h3 {
 
 .portfolio_item .port_item_cont a {
   color: #FF6347; }
+
+.main_footer a {
+  color: #FF6347; }
+
+.contact_icon {
+  color: #FF6347; }
+
+.text-danger {
+  color: #FF6347; }
+
+.main_form input:focus,
+.main_form textarea:focus {
+  border: 1px solid #FF6347; }
+.main_form input,
+.main_form textarea {
+  color: #FF6347;
+  letter-spacing: 1px; }
+.main_form button {
+  background-color: #FF6347;
+  letter-spacing: 1px; }
+.main_form .form-group {
+  color: #888; }
 
 /*# sourceMappingURL=tomato.css.map */

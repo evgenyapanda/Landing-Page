@@ -44,7 +44,7 @@ path
 		color: #fff
 
 .toggle_menu
-	background-color: rgba(100, 100, 100, 0)
+	background-color: rgba(0, 0, 0, 1)
 
 .top_mnu
 	a:hover
@@ -104,8 +104,28 @@ section
 	a
 		color: $color
 
+.main_footer a
+	color: $color
 
+.contact_icon
+	color: $color
 
+.text-danger
+	color: $color
+
+.main_form
+	input:focus,
+	textarea:focus
+		border: 1px solid $color
+	input,
+	textarea
+		color: $color
+		+kerning(1)
+	button
+		background-color: $color
+		+kerning(1)
+	.form-group
+		color: $text_color
 
 
 

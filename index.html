@@ -53,16 +53,16 @@
 					<nav class="top_mnu">
 						<ul>
 							<li>
-								<a href="#">Обо мне</a>
+								<a href="#about">Обо мне</a>
 							</li>
 							<li>
-								<a href="#">Резюме</a>
+								<a href="#resume">Резюме</a>
 							</li>
 							<li>
-								<a href="#">Портфолио</a>
+								<a href="#portfolio">Портфолио</a>
 							</li>
 							<li>
-								<a href="#">Контакты</a>
+								<a href="#contacts">Контакты</a>
 							</li>
 						</ul>
 					</nav>
@@ -357,16 +357,59 @@
 </section>
 
 <section id="contacts" class="s-contacts bg_light">
-	<section class="section_header">
+	<div class="section_header">
 		<h2>Контакты</h2>
 		<div class="s_descr_wrap">
 			<div class="s_descr">Оставьте ваше сообщение</div>
 		</div>	
-	</section>
+	</div>
 		<div class="section_content">
 			<div class="container">
 				<div class="row">
-					
+					<div class="col-md-6 col-sm-6">
+						<div class="contact_box">
+							<div class="contact_icon icon-basic-geolocalize-01">
+								<h3>Адрес:</h3>
+								<p>Lorem ipsum dolor</p>
+							</div>
+						</div>
+
+						<div class="contact_box">
+							<div class="contact_icon icon-basic-smartphone">
+								<h3>Телефон:</h3>
+								<p>+3 8000 000 000</p>
+							</div>
+						</div>
+
+						<div class="contact_box">
+							<div class="contact_icon icon-basic-webpage-img-txt">
+								<h3>Сайт:</h3>
+								<a href="#" target="_blank">http:\\</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6">
+						<form action="https://formspree.io/funeralpanda@mail.ru" class="main_form" novalidate target="_blank" method="post">
+						<label class="form-group">
+							<span class="color_element">*</span> Ваше имя:
+							<input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Вы не ввели имя" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span> Ваш E-mail:
+							<input type="email" name="email" placeholder="Ваш E-mail" data-validation-required-message="Не корректно введен E-mail" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span> Ваше сообщение:
+							<textarea name="message" placeholder="Ваше сообщение" data-validation-required-message="Вы не ввели сообщение" required></textarea>
+							<span class="help-block text-danger"></span>
+						</label>
+						<button>Отправить</button>
+					</form>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -378,6 +421,15 @@
 		<div class="col-md-12">
 			&copy; 2017 Evgeniya
 		</div>
+
+	<div class="social_wrap">
+		<ul>
+			<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+		</ul>
+	</div>
 	</div>
 </footer>
 	<div class="hidden"></div>
@@ -394,7 +446,7 @@
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
-	
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

@@ -65,8 +65,9 @@ $(document).ready(function() {
 
 	});
 
+	$("input, select, textarea").jqBootstrapValidation();
 
-
+	$(".top_mnu ul a").mPageScroll2id();
 });
 
 
